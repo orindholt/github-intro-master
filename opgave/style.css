@@ -1,4 +1,44 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+main, footer, nav {
+    padding: 1em;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    transition: .2s;
+}
+
+a:hover {
+    color: #949494;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+main p {
+    font-size: 1.125em;
+}
+
+footer {
+    text-align: center;
 }
